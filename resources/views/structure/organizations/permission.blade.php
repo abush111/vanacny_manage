@@ -1,0 +1,179 @@
+setting_CommitmentFors_AddNew
+setting_CommitmentFors_Edit
+                      commitmentFors_List
+setting_CommitmentFors_Delete
+setting_DisabilityType_AddNew
+setting_DisabilityType_Edit
+                       disabilityType_List
+setting_DisabilityType_Delete
+setting_DisasterCause_AddNew
+setting_DisasterCause_Edit
+                       disasterCause_List
+setting_DisasterCause_Delete
+setting_DisasterSeverities_AddNew
+setting_DisasterSeverities_Edit
+                       disasterSeverities_List
+setting_DisasterSeverities_Delete
+setting_EducationLevels_AddNew
+setting_EducationLevels_Edit
+                       educationLevels_List
+setting_EducationLevels_Delete
+setting_EducationFields_AddNew
+setting_EducationFields_Edit
+                        setting_EducationFields_List
+setting_EducationFields_Delete
+setting_EducationalInstitute_AddNew
+setting_EducationalInstitute_Edit
+                         educationInstitutes_List
+setting_EducationalInstitute_Delete
+setting_EmployeeStatus_AddNew
+setting_EmployeeStatus_Edit
+                           employeeStatus_List
+                                   setting_EmployeeStatus_Delete
+setting_ExperienceTypes_AddNew
+setting_ExperienceTypes_Edit
+                           experienceTypes_List
+setting_ExperienceTypes_Delete
+setting_GPAScales_AddNew
+setting_GPAScales_Edit
+                            gpaScales_List
+setting_GPAScales_Delete
+setting_JobCategory_AddNew
+setting_JobCategory_Edit
+                            jobCategory_List
+setting_JobCategory_Delete
+setting_JobTitleCategory_AddNew
+setting_JobTitleCategory_Edit
+                             jobTitleCategory_List
+setting_JobTitleCategory_Delete
+setting_JobType_AddNew
+setting_JobType_Edit
+                              jobType_List
+setting_JobType_Delete
+setting_LanguageLevels_AddNew
+setting_LanguageLevels_Edit
+                               languageLevel_List
+setting_LanguageLevels_Delete
+setting_Language_AddNew
+setting_Language_Edit
+                                language_List
+setting_Language_Delete
+setting_LeaveReasons_AddNew
+setting_LeaveReasons_Edit
+                                leaveReasons_List
+setting_LeaveReasons_Delete
+setting_LicenseType_AddNew
+setting_LicenseType_Edit
+                                licenseTypes_List
+setting_LicenseType_Delete
+setting_MaritalStatus_AddNew
+setting_MaritalStatus_Edit
+                                maritalStatus_List
+setting_MaritalStatus_Delete
+setting_Nationality_AddNew
+setting_Nationality_Edit
+                                 nationality_List
+setting_Nationality_Delete
+setting_OrganizationLocation_AddNew
+setting_OrganizationLocation_Edit
+                                organizationLocation_List
+setting_OrganizationLocation_Delete
+setting_Regions_AddNew
+setting_Regions_Edit
+                                regions_List
+setting_Regions_Delete
+setting_Relationships_AddNew
+setting_Relationships_Edit
+                                relationships_List
+setting_Relationships_Delete
+setting_Religions_AddNew
+setting_Religions_Edit
+                                religions_List
+setting_Religions_Delete
+setting_Sexes_AddNew
+setting_Sexes_Edit
+                               sexs_List
+setting_Sexes_Delete
+templete_types_AddNew
+                             templete_types_List
+                             templete_types_Edit
+                             templete_types_Delete
+                             templates_List
+Templates_Show
+Templates_Edit
+Templates_Delete
+Templates_AddNew
+                             title_List
+                             title_Edit
+                             title_Delete
+title_AddNew
+                             woredas_List
+                            woredas_Edit
+                            woredas_Delete
+woredas_AddNew
+                            zone_List
+                            zones_Edit
+                            zones_Delete
+zones_AddNew
+organization_units_AddNew
+organization_AddNew
+                            organization_units_Edit
+                            organization_units_Employes
+                            organization_units_Filterandlist
+                            organization_units_Filter
+                            organization_units_Reset
+                            organizationLocation_List
+                            organization_units_Offices
+                            organization_units_Jobs
+                            organization_units_Details
+                            organization_units_Delete
+                            organization_units_Show
+                            Organization_Edit
+                            organization_List
+                            Organization_Structure
+                            Organization_View
+                            Organization_Delete
+
+
+
+                            ////// Controllers
+                            DisabilityTypesController
+                            CommitmentForsController
+                            DisasterCausesController
+                            DisasterSeveritiesController
+                            EducationLevelsController
+                            EducationalFieldsController
+                            EducationalInstitutesController
+                            EmployeeStatusesController
+                            ExperienceTypesController
+                            JobTitleCategoriesController
+                            JobCategoriesController
+                            JobTypesController
+                            LanguageLevelsController
+                            LanguagesController
+                            LeftReasonsController
+                            LicenseTypesController
+                            MaritalStatusesController
+                            NationalitiesController
+                            OrganizationLocationsController
+                            RegionsController
+                            RelationshipsController
+                            SexesController
+                            TemplatesController
+                            TemplateTypesController
+                            TitlesController
+                            WoredasController
+                            ZonesController
+                            OrganizationsController
+
+
+
+
+setting_EducationFields
+setting_EmployeeStatus
+templete_types
+title
+woredas
+zones
+organization_units
+Organization

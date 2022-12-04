@@ -1,0 +1,2 @@
+            <dt>{{ __('employee.[% field_title %]') }}</dt>
+            <dd>{{ [% field_value %] }}</dd>

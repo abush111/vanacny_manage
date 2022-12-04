@@ -1,0 +1,318 @@
+[
+    {
+        "model-name": "OrganizationLocation",
+        "resource-file": "organization_locations.json"
+    },
+    {
+        "model-name": "JobCategory",
+        "resource-file": "job_categories.json"
+    },
+    {
+        "model-name": "JobTitleCategory",
+        "resource-file": "job_title_categories.json"
+    },
+    {
+        "model-name": "JobType",
+        "resource-file": "job_types.json"
+    },
+    {
+        "model-name": "Language",
+        "resource-file": "languages.json"
+    },
+    {
+        "model-name": "LanguageLevel",
+        "resource-file": "language_levels.json"
+    },
+    {
+        "model-name": "MaritalStatus",
+        "resource-file": "marital_statuses.json"
+    },
+    {
+        "model-name": "Nationality",
+        "resource-file": "nationalities.json"
+    },
+    {
+        "model-name": "Religion",
+        "resource-file": "religions.json"
+    },
+    {
+        "model-name": "Region",
+        "resource-file": "regions.json"
+    },
+    {
+        "model-name": "SkillCategory",
+        "resource-file": "skill_categories.json"
+    },
+    {
+        "model-name": "Relationship",
+        "resource-file": "relationships.json"
+    },
+    {
+        "model-name": "EmployeeStatus",
+        "resource-file": "employee_statuses.json"
+    },
+    {
+        "model-name": "AddressType",
+        "resource-file": "address_types.json"
+    },
+    {
+        "model-name": "ExperienceType",
+        "resource-file": "experience_types.json"
+    },
+    {
+        "model-name": "LicenseType",
+        "resource-file": "license_types.json"
+    },
+    {
+        "model-name": "EducationLevel",
+        "resource-file": "education_levels.json"
+    },
+    {
+        "model-name": "EducationalInstitute",
+        "resource-file": "educational_institutes.json"
+    },
+    {
+        "model-name": "EducationalField",
+        "resource-file": "educational_fields.json"
+    },
+    {
+        "model-name": "DisasterCause",
+        "resource-file": "disaster_causes.json"
+    },
+    {
+        "model-name": "OrganizationUnit",
+        "resource-file": "organization_units.json"
+    },
+    {
+        "model-name": "Help",
+        "resource-file": "helps.json"
+    },
+    {
+        "model-name": "Zone",
+        "resource-file": "zones.json"
+    },
+    {
+        "model-name": "Woreda",
+        "resource-file": "woredas.json"
+    },
+    {
+        "model-name": "SalaryScale",
+        "resource-file": "salary_scales.json"
+    },
+    {
+        "model-name": "SalaryStep",
+        "resource-file": "salary_steps.json"
+    },
+    {
+        "model-name": "SalaryHeight",
+        "resource-file": "salary_heights.json"
+    },
+    {
+        "model-name": "Salary",
+        "resource-file": "salaries.json"
+    },
+    {
+        "model-name": "JobPosition",
+        "resource-file": "job_positions.json"
+    },
+    {
+        "model-name": "Sex",
+        "resource-file": "sexes.json"
+    },
+    {
+        "model-name": "TemplateType",
+        "resource-file": "template_types.json"
+    },
+    {
+        "model-name": "Template",
+        "resource-file": "templates.json"
+    },
+    {
+        "model-name": "Title",
+        "resource-file": "titles.json"
+    },
+    {
+        "model-name": "Employee",
+        "resource-file": "employees.json"
+    },
+    {
+        "model-name": "EmployeeAddress",
+        "resource-file": "employee_addresses.json"
+    },
+    {
+        "model-name": "Bank",
+        "resource-file": "banks.json"
+    },
+    {
+        "model-name": "BankAccountType",
+        "resource-file": "bank_account_types.json"
+    },
+    {
+        "model-name": "DisabilityType",
+        "resource-file": "disability_types.json"
+    },
+    {
+        "model-name": "GPAScale",
+        "resource-file": "g_p_a_scales.json"
+    },
+    {
+        "model-name": "AwardType",
+        "resource-file": "award_types.json"
+    },
+    {
+        "model-name": "CommitmentFor",
+        "resource-file": "commitment_fors.json"
+    },
+    {
+        "model-name": "EmployeeBankAccount",
+        "resource-file": "employee_bank_accounts.json"
+    },
+    {
+        "model-name": "EmployeeDisability",
+        "resource-file": "employee_disabilities.json"
+    },
+    {
+        "model-name": "EmployeeEducation",
+        "resource-file": "employee_educations.json"
+    },
+    {
+        "model-name": "EmployeeEmergency",
+        "resource-file": "employee_emergencies.json"
+    },
+    {
+        "model-name": "EmployeeFamily",
+        "resource-file": "employee_families.json"
+    },
+    {
+        "model-name": "EmployeeLanguage",
+        "resource-file": "employee_languages.json"
+    },
+    {
+        "model-name": "EmployeeLicense",
+        "resource-file": "employee_licenses.json"
+    },
+    {
+        "model-name": "LeftReason",
+        "resource-file": "left_reasons.json"
+    },
+    {
+        "model-name": "DisasterSeverity",
+        "resource-file": "disaster_severities.json"
+    },
+    {
+        "model-name": "CertificationVendor",
+        "resource-file": "certification_vendors.json"
+    },
+    {
+        "model-name": "EmployeeExperience",
+        "resource-file": "employee_experiences.json"
+    },
+    {
+        "model-name": "EmployeeDisaster",
+        "resource-file": "employee_disasters.json"
+    },
+    {
+        "model-name": "EmployeeDisasterIndeminity",
+        "resource-file": "employee_disaster_indeminities.json"
+    },
+    {
+        "model-name": "EmployeeDisasterWitness",
+        "resource-file": "employee_disaster_witnesses.json"
+    },
+    {
+        "model-name": "EmployeeCertification",
+        "resource-file": "employee_certifications.json"
+    },
+    {
+        "model-name": "EmployeeAward",
+        "resource-file": "employee_awards.json"
+    },
+    {
+        "model-name": "EmployeeStudyTraining",
+        "resource-file": "employee_study_trainings.json"
+    },
+    {
+        "model-name": "EmployeeFile",
+        "resource-file": "employee_files.json"
+    },
+    {
+        "model-name": "Report",
+        "resource-file": "reports.json"
+    },
+    {
+        "model-name": "SysException",
+        "resource-file": "sys_exceptions.json"
+    },
+    {
+        "model-name": "SystemException",
+        "resource-file": "system_exceptions.json"
+    },
+    {
+        "model-name": "EmployeeAdministrativePunishment",
+        "resource-file": "employee_administrative_punishments.json"
+    },
+    {
+        "model-name": "EmployeeJudiciaryPunishment",
+        "resource-file": "employee_judiciary_punishments.json"
+    },
+    {
+        "model-name": "EmployeeAdditionalInfo",
+        "resource-file": "employee_additional_infos.json"
+    },
+    {
+        "model-name": "LeaveType",
+        "resource-file": "leave_types.json"
+    },
+    {
+        "model-name": "jj",
+        "resource-file": "jjs.json"
+    },
+    {
+        "model-name": "Biography",
+        "resource-file": "biographies.json"
+    },
+    {
+        "model-name": "Competencylist",
+        "resource-file": "competencylists.json"
+    },
+    {
+        "model-name": "Yearsetting",
+        "resource-file": "yearsettings.json"
+    },
+    {
+        "model-name": "Expertevaluation",
+        "resource-file": "expertevaluations.json"
+    },
+    {
+        "model-name": "peersevaluation",
+        "resource-file": "peersevaluations.json"
+    },
+    {
+        "model-name": "immediateevaluation",
+        "resource-file": "immediateevaluations.json"
+    },
+    {
+        "model-name": "Average",
+        "resource-file": "averages.json"
+    },
+    {
+        "model-name": "CompetencyWeight",
+        "resource-file": "competency_weights.json"
+    },
+    {
+        "model-name": "CompetencyWeightCompetencylist",
+        "resource-file": "competency_weight_competencylists.json"
+    },
+    {
+        "model-name": "Employeecompetency",
+        "resource-file": "employeecompetencies.json"
+    },
+    {
+        "model-name": "Leaderevaluationstatus",
+        "resource-file": "leaderevaluationstatuses.json"
+    },
+    {
+        "model-name": "Performance",
+        "resource-file": "performances.json"
+    }
+]

@@ -1,0 +1,71 @@
+@extends('[% layout_name %]')
+@section('pagetitle')
+    {{(__('employee.[% model_plural %]'))}}
+@endsection
+@section('breadcrumb')
+    <li class="breadcrumb-item active">{{(__('employee.[% model_plural %]'))}}</li>
+@endsection
+@section('content')
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">{{(__('employee.[% model_plural %] List'))}}</h3>
+        </div>
+
+        <div class="card-body"> 
+            @permission('[% model_plural %]_list') 
+        @if(count($[% model_name_plural_variable %]) == 0)
+                <h4 class="text-center">{{(__('employee.[% no_models_available %]'))}}</h4>
+        @else
+        <table class="table table-striped ">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            [% header_cells %]
+                            <th>{{(__('setting.Actions'))}}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach($[% model_name_plural_variable %] as $[% model_name_singular_variable %])
+                        <tr>
+                                <td>{{ $loop->iteration }}</td>
+                            [% body_cells %]
+                            <td>
+                                <form method="POST" action="{!! route('[% destroy_route_name %]', $[% model_name_singular_variable %]->[% primary_key %]) !!}" accept-charset="UTF-8">
+                                    @method('DELETE')
+                                    {{ csrf_field() }}
+                                    <div class="btn-group btn-group-xs pull-right" role="group">
+                                        @permission('[% model_plural %]_show')
+                                        <a href="{{ route('[% show_route_name %]', $[% model_name_singular_variable %]->[% primary_key %] ) }}" class="btn btn-primary" title="[% show_model %]">
+                                            <span class="fa fa-eye" aria-hidden="true"></span>
+                                        </a>
+                                        @endpermission
+                                        @permission('[% model_plural %]_show')
+                                        <a href="{{ route('[% edit_route_name %]', $[% model_name_singular_variable %]->[% primary_key %] ) }}" class="btn btn-warning" title="[% edit_model %]">
+                                            <span class="fa fa-edit text-white" aria-hidden="true"></span>
+                                        </a>
+                                        @endpermission
+                                        @permission('[% model_plural %]_show')
+                                        <button type="submit" class="btn btn-danger" title="[% delete_model %]" onclick="return confirm(&quot;[% confirm_delete %]&quot;)">
+                                            <span class="fa fa-trash" aria-hidden="true"></span>
+                                        </button>
+                                        @endpermission
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    @endforeach
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-center mt-2">
+            {!! $[% model_name_plural_variable %]->links() !!}
+        </div>
+        @endif
+        @endpermission
+        </div>
+    </div>
+    @permission('[% model_name_plural_variable %]_new')
+    <a href="{{ route('[% create_route_name %]') }}" class="btn btn-success mr-2" title="[% create_model %]">
+        <span class="fa fa-plus" aria-hidden="true">  {{(__('setting.AddNew'))}}</span>
+    </a>
+    @endpermission
+@endsection

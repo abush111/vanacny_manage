@@ -1,0 +1,41 @@
+@extends('[% layout_name %]')
+@section('pagetitle')
+    {{(__('employee.Show [% model_name_title %]'))}}
+@endsection
+@section('breadcrumb')
+    <li class="breadcrumb-item"><a href="{{ route('[% index_route_name %]') }}">{{(__('employee.[% model_name_title %]'))}}</a></li>
+    <li class="breadcrumb-item active">{{(__('setting.Show'))}}</li>
+@endsection
+@section('content')
+@permission('[% model_name_title %]_show')
+<div class="card card-primary">
+    <div class="card-header clearfix">
+            <h4 class="card-title">{{ __('employee.[% model_name_title %]')}}</h4>
+        <div class="card-tools">
+            <form method="POST" action="{!! route('[% destroy_route_name %]', $[% model_name_singular_variable %]->[% primary_key %]) !!}" accept-charset="UTF-8">
+                @method('DELETE')
+                {{ csrf_field() }}
+                <div class="btn-group btn-group-sm" role="group">
+                    @permission('[% model_name_title %]_edit')
+                    <a href="{{ route('[% edit_route_name %]', $[% model_name_singular_variable %]->[% primary_key %] ) }}" class="btn btn-primary" title="[% edit_model %]">
+                        <span class="fa fa-edit" aria-hidden="true"></span>
+                    </a>
+                    @endpermission
+                    @permission('[% model_name_title %]_delete')
+                    <button type="submit" class="btn btn-danger" title="[% delete_model %]" onclick="return confirm(&quot;[% confirm_delete %]?&quot;)">
+                        <span class="fa fa-trash" aria-hidden="true"></span>
+                    </button>
+                    @endpermission
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <dl class="dl-horizontal">
+        [% table_rows %]
+        </dl>
+    </div>
+</div>
+@endpermission
+@endsection

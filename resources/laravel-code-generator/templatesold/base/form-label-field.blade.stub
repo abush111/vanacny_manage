@@ -1,0 +1,1 @@
+    <label for="[% field_name %]" class="col-md-12 control-label">{{(__('employee.[% field_title %]'))}}</label>
